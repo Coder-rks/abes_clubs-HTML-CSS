@@ -1,0 +1,48 @@
+.navigation
+{
+position: absolute;
+    top: 550px;
+    left: 150px;	
+height:50px;
+width:830px;
+background-color:rgb(203,182,126); 
+
+font-size:15px;
+font-family:helvetica;
+ box-shadow: 1px 0px 3px #000001;
+
+}
+
+
+ul#navmenu,ul.sub1{
+list-style-type:none;
+}
+
+ul#navmenu li
+{
+
+outline: 1px solid rgb(203,182,126);
+width: 150px;
+text-align: center;
+position: relative;
+float: left;
+}
+
+ul#navmenu a
+{
+
+text-decoration:none;
+display:block;
+width:120px;
+height:25px;
+line-height:25px;
+border-radius:10px;
+}
+
+
+ul#navmenu li:hover >a
+{
+background-color:white;
+}
+
+

@@ -1,0 +1,370 @@
+<html>
+<title>Spic Macay</title>
+<head>
+<link rel="shortcut icon" href="favicon18.ico" type="image/x-icon" />	 
+            
+<link rel="stylesheet" type="text/css" href="animation.css">
+            <link rel="stylesheet" type="text/css" href="clubnavigation.css">
+            <link rel="stylesheet" type="text/css" href="contentchapter.css">
+            <link rel="stylesheet" type="text/css" href="headerfooter.css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="WOW Slider, Tutorial jQuery Slider, jQuery Slider Photo" />
+	<meta name="description" content="WOWSlider created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow" />
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" media="screen" />
+	<style type="text/css">a#vlb{display:none}</style>
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
+
+
+$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 10) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+
+
+
+
+
+function UpdateTableHeaders() {
+   $(".persist-area").each(function() {
+   
+       var el             = $(this),
+           offset         = el.offset(),
+           scrollTop      = $(window).scrollTop(),
+           floatingHeader = $(".floatingHeader", this)
+       
+       if ((scrollTop > offset.top) && (scrollTop < offset.top + el.height())) {
+           floatingHeader.css({
+            "visibility": "visible"
+           });
+       } else {
+           floatingHeader.css({
+            "visibility": "hidden"
+           });      
+       };
+   });
+}
+
+// DOM Ready      
+$(function() {
+
+   var clonedHeaderRow;
+
+   $(".persist-area").each(function() {
+       clonedHeaderRow = $(".persist-header", this);
+       clonedHeaderRow
+         .before(clonedHeaderRow.clone())
+         .css("width", clonedHeaderRow.width())
+         .addClass("floatingHeader");
+         
+   });
+   
+   $(window)
+    .scroll(UpdateTableHeaders)
+    .trigger("scroll");
+   
+}); 
+
+</script>    
+
+</head>
+
+<style>
+
+
+
+.floatingHeader {
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+}
+
+.scrollToTop{
+	width:200px; 
+	height:76px;
+	padding:0px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:500px;
+	right:-100px;
+	display:none;
+	background: url('arrow.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+</style>
+
+
+ </head>
+
+
+<body >
+<a href="#" class="scrollToTop"></a>
+
+<!--##########################main box##########################-->
+
+<div class="box">
+                <div class="abes">
+                </div>
+
+
+<!--############################content box########################-->
+<div class="photo"> 
+                <div class="photo1">
+                <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                <img src="c:/1.png" width="75" height="90" style="position: absolute; top: 10px; left: 10px;"/>
+                </div>
+
+<!--#################################abes logo#####################-->
+<div class="abesec">
+                 <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSPIC MACAY
+                  </div>
+          </div>
+ </div>
+
+<!--############################page photo########################-->
+<div class="pagephoto"> 
+                  <img src="c:/spicmacay/IMG_4157.jpg" width="1100" height="260" style="position: absolute; top: 0px; left: 0px;"/>
+                  </div>
+
+<!--#############################navigation bar#########################-->
+<div class="panel panel-default  animated fadeInDown animation-delay-8">
+<div class="navigation">
+                    <ul id="navmenu">
+                                  <li><a href="hello.html"><font color="#880000"><b>Home</b></font></a></li>
+                                  <li><a href="#about"><font color="#880000"><b>About Us</b></font></a></li>
+                                  <li><a href="#events"><font color="#880000"><b>Events</b></font></a></li>
+                                  <li><a href="#events"><font color="#880000"><b>Membership</b></font></a></li>
+                                                                    
+                                  <li><a href="#gallery"><font color="#880000"><b>Gallery</b></font></a></li>
+                                  <li><a href="#contact"><font color="#880000"><b>Contact Us</b></font></a></li>
+                    </ul>
+               </div>
+       </div>
+</div>
+
+
+<!--#################################content###############################-->
+<div class="panel panel-default  animated fadeInDown animation-delay-8">
+                  <!--####################about#####################-->            
+                       <div class="about">
+                                              <div class="about1"><center><a name="about">ABOUT US</a></center><br><hr size=1 width="260%" color=#880000>
+                                              </div>
+                                          <div class="about2">
+                                                  <font color="#880000">
+
+
+
+
+
+                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+                                               </font>
+                                    </div>
+                         </div>
+            </div>
+
+
+                      <!--##############################events##################-->
+                                               <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                                                   <div class="events">
+                                                      <div class="event1"><center><a name="events">EVENTS</a></center><br><hr size=1 width="260%" color=#880000>
+                                                      </div>
+                                                          <div class="event2">No update
+                                            </div>
+                                  </div>
+                      </div>
+
+<!--############################membership######################-->
+                                                <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                                                    <div class="membership">
+                                                         <div class="membership1"><center><a name="result">MEMBERSHIP</a></center><br><hr size=1 width="260%" color=#880000>
+                                                         </div>
+                                                             <div class="membership2">No update
+                                          </div>
+                                 </div>
+                      </div>
+
+
+
+      
+                      <!--########################gallery####################-->
+                                                    <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                                                        <div class="gallery">
+                                                            <div class="gallery1"><center><a name="gallery">GALLERY</a></center>
+                                                            </div>
+                                                               <div class="a"><a href="c:/spicmacay/IMG_4120.jpg">
+                                                               <img src="c:/spicmacay/IMG_4120.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/></a>
+                                                             </div>
+
+                                                              <div class="b"><a href="c:/spicmacay/IMG_4135.jpg">
+                                                             <img src="c:/spicmacay/IMG_4135.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                             </a>
+                                                             </div>
+
+                                                               <div class="c"><a href="c:/spicmacay/IMG_4146.jpg">
+                                                               <img src="c:/spicmacay/IMG_4146.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a>
+                                                              </div>
+
+                                                              <div class="d"><a href="c:/spicmacay/IMG_4148.jpg">
+                                                              <img src="c:/spicmacay/IMG_4148.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a>
+                                                              </div>
+
+                                                               <div class="e"><a href="c:/spicmacay/IMG_4150.jpg">
+                                                               <img src="c:/spicmacay/IMG_4150.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a>
+                                                                </div>
+
+                                                               <div class="f"><a href="c:/spicmacay/IMG_4162.jpg">
+                                                               <img src="c:/spicmacay/IMG_4162.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                                </a>
+                                                               </div>
+
+                                                              <div class="g"><a href="c:/spicmacay/IMG_4161.jpg">                    
+                                                              <img src="c:/spicmacay/IMG_4161.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+
+                                                              <div class="h"><a href="c:/spicmacay/IMG_4163.jpg">
+                                                              <img src="c:/spicmacay/IMG_4163.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+          
+                                                             <div class="i"><a href="c:/spicmacay/IMG_4165.jpg">
+                                                             <img src="c:/spicmacay/IMG_4165.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+
+
+                                                               <div class="j"><a href="c:/spicmacay/IMG_4166.jpg">
+                                                               <img src="c:/spicmacay/IMG_4166.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a></div>
+
+
+                                                             <div class="k"><a href="c:/spicmacay/IMG_4179.jpg">
+                                                             <img src="c:/spicmacay/IMG_4179.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                             </a></div>
+
+                                                            <div class="l"><a href="c:/spicmacay/IMG_4177.jpg">
+                                                             <img src="c:/spicmacay/IMG_4177.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                             </a></div>
+
+                                                               <div class="m"><a href="c:/spicmacay/IMG_4173.jpg">
+                                                               <img src="c:/spicmacay/IMG_4173.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a></div>
+
+
+                                                              <div class="n"><a href="c:/spicmacay/IMG_4175.jpg">
+                                                              <img src="c:/spicmacay/IMG_4175.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+
+
+                                                              <div class="o"><a href="c:/spicmacay/IMG_4169.jpg">
+                                                              <img src="c:/spicmacay/IMG_4169.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+
+
+                                                               <div class="p"><a href="c:/spicmacay/IMG_4160.jpg">
+                                                               <img src="c:/spicmacay/IMG_4160.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                               </a></div>
+
+
+                                                              <div class="q"><a href="c:/spicmacay/IMG_4167.jpg">
+                                                              <img src="c:/spicmacay/IMG_4167.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+
+
+                                                              <div class="r"><a href="c:/spicmacay/IMG_4144.jpg">
+                                                              <img src="c:/spicmacay/IMG_4144.jpg" width="150" height="139.5" style="position: absolute; top: 0px; left: 0px;"/>
+                                                              </a></div>
+                                     </div>
+                     </div>
+
+
+<!--####################################contact details##########################-->
+<div class="panel panel-default  animated fadeInDown animation-delay-8">
+                                                 <div class="contact">
+                                                       <div class="contact1"><center><a name="contact">CONTACT US</a></center><br><hr size=1 width="260%" color=#880000> 
+                                                       </div>
+                                                           <div class="contact2"> 
+                                                                  <font color="#880000">
+                                                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          </div>
+                                                 </div>
+                                       </div>
+<!--##############################red strip#############################-->
+                          <div class="redstrip">
+                                        </div>
+
+<!--############################conclusion##############################-->
+                         <div class="conclusion">
+                                        </div>
+
+
+                          </div>
+          </body>
+</html>

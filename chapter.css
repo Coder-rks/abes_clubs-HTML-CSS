@@ -1,0 +1,226 @@
+.chapterbox{
+
+position: absolute;
+    top: 1700px;
+    left: 20px;	
+height:800px;
+width:800px;
+background-color:white;
+font-size:30px;
+font-family:verdana;
+border-radius:0px;
+ box-shadow: 1px 1px 3px #000001;
+
+}
+.chapter
+{
+position: absolute;
+    top: 20px;
+    left: 00px;	
+height:30px;
+width:240px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:20px;
+font-family:verdana;
+border-radius:0px;
+ box-shadow: 2px 2px 2px #880000;
+}
+.acm
+{
+position: absolute;
+    top: 100px;
+    left:30px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.acm1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:200px;
+
+ box-shadow: 1px 1px 1px #880000;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+}
+
+.codechef
+{
+position: absolute;
+    top: 100px;
+    left:285px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.codechef1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:200px;
+
+border-color:#880000;
+background-color:rgb(208,190,140); 
+box-shadow: 1px 1px 1px #880000;
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+}
+.csi
+{
+position: absolute;
+    top: 100px;
+    left:540px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.csi1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:180px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+ box-shadow: 1px 1px 1px #880000;
+}
+
+.spic
+{
+position: absolute;
+    top: 580px;
+    left:290px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.spic1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:180px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+
+ box-shadow: 1px 1px 1px #880000;}
+
+.iste
+{
+position: absolute;
+    top: 340px;
+    left:540px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.iste1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:180px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+
+ box-shadow: 1px 1px 1px #880000;}
+
+
+.icte
+{
+position: absolute;
+    top: 340px;
+    left:290px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.icte1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:180px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+
+ box-shadow: 1px 1px 1px #880000;}
+
+.IEEE
+{
+position: absolute;
+    top: 340px;
+    left:30px;	
+height:200px;
+width:220px;
+background-color:white;
+color:white;
+font-size:30px;
+font-family:verdana;
+ box-shadow: 0px 0px 5px #000001;
+}
+.IEEE1
+{
+position: absolute;
+    top: 10px;
+    left: 0px;	
+height:20px;
+width:180px;
+background-color:rgb(208,190,140);
+color:#880000;
+font-size:13px;
+border-radius:0px;
+font-family:verdana;
+ box-shadow: 1px 1px 1px #880000;
+}

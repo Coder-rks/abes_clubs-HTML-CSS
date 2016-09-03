@@ -1,0 +1,79 @@
+
+
+
+.box
+{
+height:2580px;
+width:1330px;
+background-color:rgb(233,234,237);
+margin:auto;
+}
+
+
+
+.abes
+{
+
+position: absolute;
+    top: 0px;
+    
+height:30px;
+width:1333px;
+color:white;
+background-color:rgb(208,190,140);
+ box-shadow: 0px 9px 0px #880000;
+margin:auto;
+}
+
+
+
+.photo
+{
+position: absolute;
+top:30px;
+
+height:2530px;
+width:1130px;
+background:rgb(239,228,176);
+ box-shadow: 0px 0px 1px #000001;
+margin-left:95px;
+
+}
+
+
+.photo1
+{
+position:absolute;
+top:0px;
+left:20px;
+}
+.abesec
+{
+position: absolute;
+    top: 19px;
+height:120px;
+width:1070px;
+color:#880000;
+margin:auto;
+font-size:60px;
+font-family:verdana;
+}
+.pagephoto
+{
+position: absolute;
+    top: 110px;
+left: 30px;	
+
+    height:400px;
+width:1050px;
+color:#880000;
+ box-shadow: 0px 0px 1px #000001;
+font-size:60px;
+font-family:helvetica;
+border-style:solid;
+border-width:10px;
+
+}
+
+
+

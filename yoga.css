@@ -1,0 +1,106 @@
+
+.box
+{
+height:1845px;
+width:1330px;
+background-color:rgb(233,234,237);
+margin:auto;
+}
+
+.abes
+{
+
+position:absolute;
+top:0px;
+height:30px;
+width:1333px;
+
+background-color:rgb(209,190,140);
+color:white;
+font-family:helvetica;
+ box-shadow: 0px 9px 0px #880000;
+margin:auto;
+}
+
+
+
+.photo
+{
+position: absolute;
+    top: 30px;
+    height:1820px;
+width:1130px;
+
+color:white;
+background-color:rgb(239,228,176);
+ box-shadow: 0px 0px 1px #000001;
+margin-left:95px;
+
+}
+.photo1
+{
+position: absolute;
+    top: 0px;
+    left: 20px;	
+height:110px;
+width:1100px;
+color:white;
+}
+.abesec
+{
+position: absolute;
+    top: 19px;
+    	
+height:120px;
+width:1070px;
+color:#880000;
+
+font-size:60px;
+font-family:helvetica;
+margin-left:40px;
+}
+.pagephoto
+{
+position: absolute;
+    top: 110px;
+left:30px;    	
+height:400px;
+width:1050px;
+color:#880000;
+font-size:60px;
+font-family:helvetica;
+border-style:solid;
+border-width:10px;
+ box-shadow: 0px 0px 0px #000001;
+
+}
+
+
+
+
+
+.conclusion
+{
+position: absolute;
+    top: 1859px;
+    height:30px;
+width:1330px;
+background-color:rgb(209,190,140);
+color:white;
+font-size:10px;
+font-family:verdana;
+ margin:auto;
+}
+
+.conclusionstrip
+{
+position: absolute;
+    top: 1850px;
+    height:9px;
+width:1330px;
+background-color:#880000;
+color:white;
+font-size:10px;
+font-family:verdana;
+ margin:auto;
+}
